@@ -1,0 +1,22 @@
+#headerNav {
+  height: 16vh;
+  background-color: #0d0d0d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  height: auto;
+  width: 16%;
+  max-width: 100px;
+  background: #0d0d0d;
+  cursor: pointer;
+  margin-bottom: 16px;
+
+  &:hover {
+    transition: 0.3s;
+    opacity: 50%;
+  }
+}

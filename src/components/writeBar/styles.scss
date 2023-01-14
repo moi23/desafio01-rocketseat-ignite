@@ -1,0 +1,41 @@
+#writeBarContainer {
+  width: 100vw;
+  height: 7vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -33px;
+  background: none;
+
+  form {
+    background: none;
+
+    width: 70%;
+    input {
+      background-color: #262626;
+      border: none;
+      width: 80%;
+      padding: 3%;
+      border-radius: 4px;
+      color: white;
+    }
+
+    button {
+      width: 15%;
+      border: none;
+      height: 48px;
+      margin-left: 10px;
+      background-color: #1e6f9f;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.3s;
+        opacity: 70%;
+      }
+    }
+  }
+}
