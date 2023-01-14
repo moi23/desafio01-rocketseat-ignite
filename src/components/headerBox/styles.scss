@@ -1,0 +1,61 @@
+#containerHeaderBox {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+#subContainer {
+  width: 70%;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskQuantity {
+  color: #4ea8de;
+  display: flex;
+  align-items: center;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  span {
+    margin-left: 8px;
+    background-color: #333333;
+    color: white;
+    border-radius: 45%;
+
+    height: 22px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#tasksFinished {
+  color: #8284fa;
+  display: flex;
+  align-items: center;
+
+  h3 {
+    font-weight: 400;
+  }
+  span {
+    margin-left: 8px;
+    background-color: #333333;
+    color: white;
+    border-radius: 45%;
+    height: 22px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
