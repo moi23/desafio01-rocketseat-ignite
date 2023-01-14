@@ -1,0 +1,16 @@
+#containerBoxNoContent {
+  // background: red;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+#subContainerBoxNoContent {
+  height: 10vh;
+  width: 70%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top: solid 1px #333333;
+}
